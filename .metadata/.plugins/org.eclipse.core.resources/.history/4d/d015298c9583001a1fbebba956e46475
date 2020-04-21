@@ -1,0 +1,11 @@
+package sync;
+
+public class SharedObj {
+
+	public synchronized void add(Account act1,Account act2) {
+		System.out.println("***µÎ °èÁÂ ÀÜ¾×ÀÇ ÇÕ***");
+		long sumBalance = balance1 +balance2;
+		System.out.println("ÇÕ: "+sumBalance);
+		
+	}
+}

@@ -1,0 +1,15 @@
+package sync;
+/*
+	1. 두 계좌의 잔액을 더 하는 쓰레드
+		- SharedObj 객체의 계좌 잔액을 더 해서 sysout으로 출력하는 쓰레드
+		- 5번 
+
+*/
+public class ThreadSyncTest02 {
+	public static void main(String[] args) {
+		// 1. 공유 객체 만들기
+		SharedObj obj = new SharedObj();
+		obj.
+	}
+
+}

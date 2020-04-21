@@ -1,0 +1,37 @@
+package basic;
+
+/*
+	멀티쓰레드 프로그래밍
+	1. Runnable인터페이스를 구현하는 클래스를 생성
+	2. 
+
+*/
+class RunnableTest01 implements Readable {
+	
+	// 1~100까지 출력
+	public void run() {
+		for (int i = 1; i <= 20; i++) {
+			System.out.println(getName()+" "+i);
+			try {
+				Thread.sleep(100); // 실행흐름을 멈춘다
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			if (i % 5 == 0) {
+				System.out.println();
+			}
+		}
+	}
+
+}
+
+public class ThreadExam01 {
+
+	public static void main(String[] args) {
+		System.out.println("*******프로그램 main 시작********");
+		DigitThread test1 = new DigitThread("test1");
+		test1.start();
+			
+	}
+
+}

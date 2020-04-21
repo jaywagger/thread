@@ -1,0 +1,10 @@
+package transfer;
+
+public class SharedObj {
+
+	public synchronized void trnasfer(Account act1,Account act2) {
+		System.out.println("***°èÁÂ ÀÌÃ¼***");
+		
+		
+	}
+}

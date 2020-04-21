@@ -1,0 +1,21 @@
+package transfer;
+
+public class TransferThread  implements Runnable{
+	SharedObj obj;
+	
+	//생성자
+	public TransferThread(SharedObj obj) {
+		super();
+		this.obj = obj;
+	}
+
+	@Override
+	public void run() {
+		//공유객체가 갖고 있는 메소드를 호출
+		for(int i=1; i<=20;i++) {
+			obj.acc1.withdraw(100);
+		}
+	}
+	
+	
+}

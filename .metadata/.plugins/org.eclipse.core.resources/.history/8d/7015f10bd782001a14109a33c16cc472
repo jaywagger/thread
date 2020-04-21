@@ -1,0 +1,27 @@
+package basic;
+
+
+/*
+	멀티쓰레드 프로그래밍 사용 방법
+	1. Thread클래스를 상속
+	2. run메소드를 오버라이딩
+		=> 쓰레드 프로그래밍으로 작업하고 싶은 내용을 구현
+		=>동시다발로 표현하고 싶은 내용 구현
+*/
+class ThreadDemo1 extends Thread{
+	public void run() {
+		for(int=1;i<=20;i++) {
+			System.out.print(i);
+		}
+	}
+	
+}
+
+public class ThreadTest01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

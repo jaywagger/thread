@@ -1,0 +1,9 @@
+package sync;
+
+public class ThreadSyncTest02 {
+	public static void main(String[] args) {
+		// 1. 공유 객체 만들기
+		SharedObj obj = new SharedObj();
+	}
+
+}

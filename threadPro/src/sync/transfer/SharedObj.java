@@ -1,0 +1,8 @@
+package sync.transfer;
+
+public class SharedObj {
+	Account acc1; //Á¦À±°èÁÂ
+	Account acc2; //Á¤À±°èÁÂ
+	
+}
+

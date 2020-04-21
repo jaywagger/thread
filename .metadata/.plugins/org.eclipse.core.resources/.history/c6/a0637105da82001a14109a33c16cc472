@@ -1,0 +1,25 @@
+package basic;
+
+/*
+	문제: 쓰레드 프로그래밍을 구현하세요
+	1~100까지 출력: DigitThread
+	A~Z까지 출려갛는 AlphaThread
+	DigitThread와  AlphaThread를 동시에 실행: main
+
+*/
+class DigitThread extends Thread {
+	public DigitThread(String name) {
+		super(name);
+	}
+	
+}
+
+
+public class ThreadExam01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

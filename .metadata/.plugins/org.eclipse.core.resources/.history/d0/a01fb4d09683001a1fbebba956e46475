@@ -1,0 +1,19 @@
+package transfer;
+
+public class SumPrintThread extends Thread{
+	SharedObj obj;
+
+	public SumPrintThread(SharedObj obj) {
+		super();
+		this.obj = obj;
+	}
+	
+	public void run() {
+		for (int i = 0; i <= 5; i++) {
+			long total = obj.acc1.getBalance()+obj.acc2.getBalance;
+			System.out.println("µÎ °èÁÂÀÇ ÀÜ¾×: ");
+		}
+	}
+	
+
+}

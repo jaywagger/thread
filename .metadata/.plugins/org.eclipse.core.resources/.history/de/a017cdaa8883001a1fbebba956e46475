@@ -1,0 +1,25 @@
+package sync;
+
+public class ThreadSyncTest01 {
+	public static void main(String[] args) {
+		//¸ðµç ¾²·¹µå°¡ °øÀ¯ÇØ¼­ »ç¿ëÇÒ °´Ã¼
+		Toilet toilet = new Toilet();
+		
+		//°øÀ¯°´Ã¼¸¦ »ç¿ëÇÏ´Â ¾²·¹µå °´Ã¼¸¦ »ý¼º
+		User user1 = new User("±è¸ð¾¾", toilet);
+		User user2 = new User("ÀÌ¸ð¾¾", toilet);
+		User user3 = new User("¹Ú¸ð¾¾", toilet);
+		User user4 = new User("ÃÖ¸ð¾¾", toilet);
+		User user5 = new User("¾ç¸ð¾¾", toilet);
+		User user6 = new User("È«¸ð¾¾", toilet);
+		User user7 = new User("Àå¸ð¾¾", toilet);
+		
+		user1.start();
+		user2.start();
+		user3.start();
+		user4.start();
+		user5.start();
+		user6.start();
+		user7.start();
+	}
+}

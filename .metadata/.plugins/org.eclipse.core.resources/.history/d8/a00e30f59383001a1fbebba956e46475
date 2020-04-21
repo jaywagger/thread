@@ -1,0 +1,8 @@
+package sync;
+
+public class SharedObj {
+
+	public synchronized void add(long balance1,long balance2) {
+		
+	}
+}

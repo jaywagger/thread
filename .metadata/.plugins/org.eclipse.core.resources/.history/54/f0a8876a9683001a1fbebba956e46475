@@ -1,0 +1,11 @@
+package transfer;
+
+public class TransferThread  implements Runnable{
+	SharedObj obj;
+	
+	//»ı¼ºÀÚ
+	public TransferThread(SharedObj obj) {
+		super();
+	}
+	
+}
